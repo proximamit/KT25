@@ -2,9 +2,10 @@
 
 - map() function is a built-in function in python  
 - it applies a given **function** to every item of an iterable (like a list, tuple, etc.) 
-- map returns a map object and we need to convert it to a list (or another iterable type)
+- map() returns a map object and we need to convert it to a list (or another iterable type)
 - the result can be consumed only once
-- map is frequently used with lambda functions 
+- map() is frequently used with lambda functions
+- map() is generally used for transforming items in a sequence
 
 ### Syntax
 ```python

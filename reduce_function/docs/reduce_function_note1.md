@@ -1,6 +1,7 @@
 # reduce() function
 
-- we need to import it before use
+- We need to import it before use
+- It applies a function ***cumulatively*** to the items of `iterable`, starting from `initializer`
 
 ```python
     from functools import reduce
