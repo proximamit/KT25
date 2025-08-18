@@ -24,3 +24,11 @@
 ### **Overriding**: If a method in the child class has the same name as a method in the parent class, the child's method will override the parent's method.  
 
 ---
+
+### Python does not support traditional **Method Overloading** like Java or C++ 
+
+- In Python, if we define multiple methods with the same name, **the last definition overrides the previous ones**
+- However, Python can **simulate method overloading** using
+    - Default arguments
+    - Variable-length arguments
+    - Type-Checking manually inside a single method 
