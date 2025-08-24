@@ -1,5 +1,3 @@
-<a name="top"></a>
-
 # Collections (Container data types) 
 
 - **Container data types** also known as ***Collections*** in Python are used to store and organize multiple items (data)
@@ -19,13 +17,13 @@
 - There are **four** main **built-in container types**
 - These are general purpose built-in containers
 
-| Type                              | Description                                   |
-| ----------------------------------| --------------------------------------------- |
-| `list`                            | Ordered, mutable sequence of items            |
-| `tuple`                           | Ordered, immutable sequence of items          |
-| `set`                             | Unordered, mutable collection of unique items |
-| `dict` **Before Python 3.7**      | Unordered collection of key-value pairs       |
-| `dict` **Python 3.7 and later**   | Ordered collection of key-value pairs         |
+| Type                              | Description                                         |
+| ----------------------------------| ----------------------------------------------------|
+| `list`                            | Ordered, mutable sequence of items                  |
+| `tuple`                           | Ordered, immutable sequence of items                |
+| `set`                             | Unordered, mutable collection of ***unique*** items |
+| `dict` **Before Python 3.7**      | Unordered collection of key-value pairs             |
+| `dict` **Python 3.7 and later**   | Ordered collection of key-value pairs               |
 
 ---
 ### Lists
@@ -85,9 +83,9 @@ A `tuple` is like a list but **cannot be changed** after creation. i.e. no addin
 * Example: my_set = {1, 2, 3}
 
 ---
+## `collections` module in Python's standard library
 ---
 
-## collections module in Python's standard library 
 - `collections` module is a Built-in module
 - Provides specialized collections
 - The `collections` module provides enhanced versions of built-in types and new specialized containers for specific use cases
@@ -101,17 +99,17 @@ A `tuple` is like a list but **cannot be changed** after creation. i.e. no addin
 | OrderedDict                       | Dictionary maintaining insertion order    |
 | defaultdict                       | Dict with default values for missing keys |
 
-
+---
 ### Notes:
 
-<a name="footnote-1">[^1]</a> a container or a collection is a single variable that can store many values
-<a name="footnote-2">[^2]</a>
-Hashable objects are crucial for efficient storage and retrieval
-Hashable objects are **immutable** - their value cannot be changed after creation.
-Dictionaries use hashing to quickly locate values assiciated with their keys
-Similarly, only hashable objects can be elements of sets
+<a name="footnote-1">[^1]</a>  
+A container or a collection is a single variable that can store many values  
+<a name="footnote-2">[^2]</a>  
+Hashable objects are crucial for efficient storage and retrieval.  
+Hashable objects are **immutable** - their value cannot be changed after creation.  
+Dictionaries use hashing to quickly locate values assiciated with their keys  
+Similarly, only hashable objects can be elements of sets  
 
 Examples of hashable and unhashable objects
 * Hashable - Integers, floats, strings, tuples(if all their elements are also hashable)
 * Unhashable - Lists, dictionaries, sets (as they are mutable)
-(#top)
