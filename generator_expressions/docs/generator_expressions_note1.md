@@ -7,12 +7,13 @@
 - **generator expressions** are highly memory efficient for large datasets
 - Instead of creating the whole list in memory, they generate items **one at a time** (lazily), which makes them more memory-efficient for large data sets
 - When we iterate over a **generator object**, it computes each value **on the fly** and remembers where it left off.
-
+---
 > Unlike list comprehensions which construct and store an entire list in memory, generator expressions create an iterable that yields values on demand, making them highly memory-efficient, especially when dealing with large datasets or infinite sequences
 
-> A list comprehension returns an iterable. It means that you can iterate over the result of a list comprehension again and again
+> A list comprehension returns an iterable. It means that we can iterate over the result of a list comprehension again and again
 
-However, a generator expression returns an iterator, specifically a lazy iterator. It becomes exhaused when we complete iterating over it
+### However, a generator expression returns an iterator, specifically a lazy iterator. 
+### It becomes exhaused when we complete iterating over it
 ---
 ### Basic Syntax:
 ```Python
@@ -59,10 +60,9 @@ However, a generator expression returns an iterator, specifically a lazy iterato
 
 - A **generator** is an iterator that yields items one at a time using a special syntax.
 - **Generator expressions** look like list comprehensions but use **parentheses `()` instead of square brackets `[]`**.
-- They **do not compute** the items until you iterate over them.
+- They **do not compute** the items until we iterate over them.
 - They are **useful for large data sets**, streaming data, or any situation where creating the full list in memory is not optimal.
 
----
 ---
 
 ## Benefits of Generator Expressions
