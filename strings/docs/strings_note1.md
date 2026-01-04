@@ -2,6 +2,7 @@
 
 - A string is a sequence of characters.  
 - anything inside quotes is treated as string  
+- once a string is created, its contents cannot be changed. i.e. strings are immutable 
 
 
 single-quoted string example -  
