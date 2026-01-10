@@ -77,3 +77,31 @@ or
 
 - Code >> Preferences >> Keyboard Shortcuts
 ---
+
+## Enter/Toggle Full Screen (Zen) mode
+
+- Press `Ctrl + K` followed by **Z**
+
+or for macOS
+
+- Press `Command + K` followed by **Z**
+
+or From the Menu (on the top)
+-  View >> Appearance >> Zen Mode
+
+- To Exit - Double press the `Esc` key or use the same shortcut again
+
+## Split Editor
+
+- To view two Python files side by side
+- Press `Ctrl + \` to split the editor
+
+or
+
+- From the Menu
+
+    - View >> Editor Layout >> Split Right or Split Down
+
+## To return to normal mode
+
+- From the Menu >> View >> Editor Layout >> Single

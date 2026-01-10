@@ -84,11 +84,11 @@ Before VS Code, make sure Python is installed.
 
 ## 6. Useful VS Code Shortcuts
 
-| Action          | Shortcut           |
-| --------------- | ------------------ |
-| Command Palette | `Ctrl + Shift + P` |
-| Open Terminal   | `Ctrl + `\`        |
-| Comment Line    | `Ctrl + /`         |
+| Action          | Shortcut              |
+| --------------- | --------------------- |
+| Command Palette | `Ctrl + Shift + P`    |
+| Open Terminal   | `Ctrl + `\` (backtick)|
+| Comment Line    | `Ctrl + /`            |
 
 ---
 

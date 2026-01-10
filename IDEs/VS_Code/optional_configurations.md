@@ -11,3 +11,7 @@
         80,
     ]
 ```
+
+### Optional VS Code Extensions for Formatting
+
+- (optional) Search and install the `Black` or `autopep8` formatting extensions
