@@ -89,3 +89,20 @@ Before VS Code, make sure Python is installed.
 | Command Palette | `Ctrl + Shift + P` |
 | Open Terminal   | `Ctrl + `\`        |
 | Comment Line    | `Ctrl + /`         |
+
+---
+
+- Open the Command Palette with (`Command+Shift+P` on `macOS` and `Ctrl+Shift+P` on `Windows/Linux`) or use just `F1` on all platforms
+
+- Alternatively, from the top `menu` Click `View`, `Command Palette`
+
+- Command Palette is
+    - a central hub for controlling the VS Code application
+    - an interactive search box - to search for and execute any available command within VS Code
+
+- example usage:
+    - Consider a python code with mix of spaces and tabs
+    - To fix - replace all tab characters with the spaces
+        - Open the Command Palette
+        - Start typing `Convert Indentation to Spaces`
+        - Select the Convert Indentation to Spaces option from the dropdown list and press Enter to `Run the command`
