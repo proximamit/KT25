@@ -21,4 +21,3 @@ print(Fore.YELLOW + Back.BLUE + "Yellow text on blue background")
 print(Style.BRIGHT + "This is bright text")
 print(Style.BRIGHT + Fore.BLUE + "This is bright blue text")
 print("This text is normal because of autoreset=True")
-
