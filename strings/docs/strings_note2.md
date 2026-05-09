@@ -13,13 +13,13 @@ position.
 - Each character has a position
 - For Slicing, the `stop` index is **not included**
 
- ---
+---
 
- ## Slicing
+## Slicing
 
- **Slicing** means extracting a **substring** (a part of the string).
+**Slicing** means extracting a **substring** (a part of the string).
 
- ```python
+```python
 string[start : stop : step]
 ```
 

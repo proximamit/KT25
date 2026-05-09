@@ -1,5 +1,12 @@
 # VS Code for Python programming
 
+- Visual Studio Code is a code editor
+- In the extreme left is the **Activity Bar**
+- After the ***Activity Bar*** is the **Primary Side Bar**
+- In the bottom, we have **Status Bar**
+- On the right side is the **Secondary Side Bar**
+
+
 ## 1. Install Python
 
 Before VS Code, make sure Python is installed.
@@ -89,6 +96,9 @@ Before VS Code, make sure Python is installed.
 | Command Palette | `Ctrl + Shift + P`    |
 | Open Terminal   | `Ctrl + `\` (backtick)|
 | Comment Line    | `Ctrl + /`            |
+
+
+- Use `Command + Shift + P` on macOS to open the Command Palette
 
 ---
 
