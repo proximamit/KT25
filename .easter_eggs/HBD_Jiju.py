@@ -27,11 +27,11 @@ class Jiju:
             "Good health", 
             "Lots of love and laughter"
         ]
-        print(f"\n On your Wishing you a year filled with:")
+        print(f"\n Wishing you a year filled with:")
         for wish in wishes:
             print(f"\n--> {wish}")
         print("\nSystem Status: ")
-        print("\tHappinss: 100%")
+        print("\tHappiness: 100%")
         print("\tCelebration: ON")
         print("\tWeekend Mode: ACTIVATED")
         print("\nHave a splendid birthday weekend, Jiju!")
