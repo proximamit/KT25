@@ -1,5 +1,20 @@
 # OOPS - Object-Oriented Programming System
 
+***Object-Oriented Programming (OOP)*** is a programming style that organizes 
+code using classes and objects.
+
+## Class
+
+- A **class** is a blueprint or template for creating objects. 
+- It defines the ***attributes (data)*** and ***methods (functions)*** that the objects will have.
+
+## Object
+
+- An **object** is an instance of a class. 
+- It is used to access the attributes and methods defined in the class.
+
+---
+
 ## Objects - instances of classes  
 ---
 **class** - encapsulate data and behavior  
@@ -8,6 +23,8 @@
 
 **Attributes** - *data or properties of an object*  
 **Methods** - *functions or behaviors that the object can perform*  
+
+---
 
 **Instance variables** - variables that are specific to each object of the class  
 **Instance methods** - methods that can be called on each object of the class  

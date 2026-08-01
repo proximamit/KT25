@@ -43,3 +43,12 @@ Dog.species = "Canis lupus familiaris"      # Changing class variable
 print(dog2.species)     # Output: Canis lupus familiaris
 
 print(Dog.count)        # Output: 2
+
+'''
+Dog is the class.
+dog1 is the object.
+name is an attribute.
+bark() is a method.
+__init__() is the constructor that initializes the object's data.
+
+'''

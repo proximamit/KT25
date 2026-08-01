@@ -2,8 +2,13 @@ class Person():
     def say_hi(self):
         print("Hello, how are you?")
 
+# Here
+# Person is the class
+# say_hi() is a method 
+
 p = Person()
 p.say_hi()
+
 
 #The previous 2 lines can also be written as 
 Person().say_hi()
