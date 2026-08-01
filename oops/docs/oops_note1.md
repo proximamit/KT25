@@ -7,11 +7,15 @@ code using classes and objects.
 
 - A **class** is a blueprint or template for creating objects. 
 - It defines the ***attributes (data)*** and ***methods (functions)*** that the objects will have.
+- Declared once using the class keyword
+- Does not allocate memory when defined.
 
 ## Object
 
 - An **object** is an instance of a class. 
 - It is used to access the attributes and methods defined in the class.
+- Can be created multiple times from a single class
+- Allocates memory when instantiated
 
 ---
 
@@ -20,6 +24,19 @@ code using classes and objects.
 **class** - encapsulate data and behavior  
 
 ### a class defines attributes and methods  
+
+### Attributes
+
+ - **attributes** are variables that belong to an object or a class. 
+ - They store the data (state) of an object.
+
+- Attributes are variables defined inside a class that represent the data or
+properties of that class and its objects.
+- They define the state of an object, while methods define its behavior.
+
+Attribute is a feature 
+- of the class (class attribute) or 
+- of an instance of the class (instance attribute).
 
 **Attributes** - *data or properties of an object*  
 **Methods** - *functions or behaviors that the object can perform*  
@@ -43,4 +60,5 @@ code using classes and objects.
 ### Encapsulation - The practice of hiding the internal details of an object and exposing only the necessary information through methods  
 ---
 ### Abstraction - The process of reducing complexity by hiding unnecessary details, allowing to focus on the essential features of an object or system  
+
 ---
