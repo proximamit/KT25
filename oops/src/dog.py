@@ -49,6 +49,6 @@ Dog is the class.
 dog1 is the object.
 name is an attribute.
 bark() is a method.
-__init__() is the constructor that initializes the object's data.
+__init__() is the initializer that initializes the object's data.
 
 '''

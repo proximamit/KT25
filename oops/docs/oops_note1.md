@@ -20,6 +20,9 @@ code using classes and objects.
 ---
 
 ## Objects - instances of classes  
+
+Making an object from a class is called **instantiation**
+
 ---
 **class** - encapsulate data and behavior  
 
