@@ -1,4 +1,4 @@
-# if __name__ == "__main__":
+# `if __name__ == "__main__":`
 
 The above construct (a basic building block) is essential for separating script behavior from module behavior.
 
@@ -19,9 +19,9 @@ i.e.
 ## This construct checks if this file being run directly, and not imported
 
 --- 
-## Every Python file (module) has a special built-in variable called __name__
+## Every Python file (module) has a special built-in variable called `__name__`
 
-- if __name__ == "__main__":
+- `if __name__ == "__main__":`
     - Runs code (below it ) only when file is executed directly
     - Prevents code from running when imported
 
