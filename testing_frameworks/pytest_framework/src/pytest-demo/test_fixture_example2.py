@@ -1,3 +1,5 @@
+### 2. A practical example.
+
 import pytest
 
 @pytest.fixture

@@ -1,3 +1,5 @@
+### 3. Fixture scope: how often does it run?
+
 import pytest
 
 @pytest.fixture(scope="module")

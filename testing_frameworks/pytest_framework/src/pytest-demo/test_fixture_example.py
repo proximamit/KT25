@@ -1,3 +1,6 @@
+###  fixture - Hello World
+# pip install pytest
+
 import pytest
 
 # @pytest.fixture tells pytest that numbers() is a fixture.
@@ -13,3 +16,6 @@ def test_numbers_length(numbers):
 
 def test_numbers_sum(numbers):
     assert sum(numbers) == 15
+
+# Run the tests:
+# pytest -v
